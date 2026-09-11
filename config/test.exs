@@ -7,6 +7,15 @@ config :forgechat, ForgeChatWeb.Endpoint,
   secret_key_base: "s3EF13DHrw4dp9suhUS51yK60nr68lLhyzuj2LJl+Wc9WTQmr9fl5QffEqTTNNdC",
   server: false
 
+config :forgechat, ForgeChat.Repo,
+  username: "forgechat",
+  password: "forgechat_dev",
+  hostname: "localhost",
+  database: "forgechat_test",
+  stacktrace: true,
+  show_sensitive_data_on_connection_error: true,
+  pool_size: 10
+
 # In test we don't send emails
 config :forgechat, ForgeChat.Mailer, adapter: Swoosh.Adapters.Test
 

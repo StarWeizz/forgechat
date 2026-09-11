@@ -8,6 +8,7 @@ defmodule ForgeChat.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      ForgeChat.Repo,
       ForgeChatWeb.Telemetry,
       {DNSCluster, query: Application.get_env(:forgechat, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: ForgeChat.PubSub},
