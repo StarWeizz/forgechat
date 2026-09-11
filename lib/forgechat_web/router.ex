@@ -7,6 +7,8 @@ defmodule ForgeChatWeb.Router do
 
   scope "/api", ForgeChatWeb do
     pipe_through :api
+
+    get "/health", HealthController, :index
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
