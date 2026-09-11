@@ -14,7 +14,7 @@ Légende :
 |---|---|---|---|
 | 0 | Environnement | ✅ | tout |
 | 1 | Elixir pur (chat CLI) | ✅ | Phase 2 |
-| 2 | GenServer / OTP | ⬜ | Phase 3+ |
+| 2 | GenServer / OTP | ✅ | Phase 3+ |
 | 3 | Phoenix — API de base | ⬜ | Phase 4, 5 |
 | 4 | PostgreSQL / Ecto | ⬜ | Phase 3+ |
 | 5 | Channels / WebSockets | ⬜ | Phase 6, 13 |
