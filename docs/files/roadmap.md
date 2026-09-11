@@ -12,8 +12,8 @@ Légende :
 
 | Phase | Titre | Statut | Sert de prérequis à |
 |---|---|---|---|
-| 0 | Environnement | ⬜ | tout |
-| 1 | Elixir pur (chat CLI) | ⬜ | Phase 2 |
+| 0 | Environnement | ✅ | tout |
+| 1 | Elixir pur (chat CLI) | ✅ | Phase 2 |
 | 2 | GenServer / OTP | ⬜ | Phase 3+ |
 | 3 | Phoenix — API de base | ⬜ | Phase 4, 5 |
 | 4 | PostgreSQL / Ecto | ⬜ | Phase 3+ |
