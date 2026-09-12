@@ -14,7 +14,8 @@ config :forgechat, ForgeChat.Repo,
   database: "forgechat_test",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+  pool_size: 10,
+  pool: Ecto.Adapters.SQL.Sandbox
 
 # In test we don't send emails
 config :forgechat, ForgeChat.Mailer, adapter: Swoosh.Adapters.Test
